@@ -1,0 +1,14 @@
+project contains:
+  title is Atlas.
+  version is 1.2.
+  languages are python, rust, go.
+  items are:
+    - contains:
+        id is 1.
+        name is First.
+    - contains:
+        id is 2.
+        name is Second.
+  matrix are:
+    - 1, 2, 3.
+    - 4, 5, 6.

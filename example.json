@@ -1,0 +1,45 @@
+{
+  "string_example": "Hello, world",
+  "number_example": 123.45,
+  "boolean_true_example": true,
+  "boolean_false_example": false,
+  "null_example": null,
+  "object_example": {
+    "nested_string": "Nested value",
+    "nested_number": 999,
+    "nested_list": [1, 2, 3]
+  },
+  "array_example": [
+    "text value",
+    42,
+    false,
+    null,
+    {
+      "inside_object": "data"
+    },
+    [10, 20, 30]
+  ],
+  "complex_structure": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "roles": ["admin", "editor"],
+        "active": true
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "roles": ["viewer"],
+        "active": false
+      }
+    ],
+    "settings": {
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "sms": false
+      }
+    }
+  }
+}
